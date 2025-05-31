@@ -71,7 +71,7 @@ def buscar_nota(matriz, nota):
     resultado = []     
     for fila in range(len(matriz)):
         fila_momentanea = matriz[fila]
-        alumno = fila_momentanea
+        alumno = fila_momentanea[0]
         for elemento in range(1, len(matriz[fila])):
             if matriz[fila][elemento] == nota:
                 resultado += [[alumno, f"Examen {elemento}"]]

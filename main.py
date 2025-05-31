@@ -10,7 +10,7 @@ def main():
         "3_ Imprimir grilla\n" \
         "4_ Porcentaje\n" \
         "5_ proimedio\n" \
-        "6_ buscar nota" \
+        "6_ buscar nota\n" \
         "7_ salir")
         opcion = int(input("Ingrese una opcion: "))
         match opcion:
